@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "tkapp"
+version = "0.1.0"
+description = "A Tkinter-based application launcher that dynamically loads and categorizes app configurations from a JSON configuration file (tkapp.conf) and launches them as standalone processes."
+authors = ["Filipe <dev_filipe at hotmail com>"]
+license = "MIT"
+homepage = "https://github.com/devfilipe/tkapp"
+repository = "https://github.com/devfilipe/tkapp"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
